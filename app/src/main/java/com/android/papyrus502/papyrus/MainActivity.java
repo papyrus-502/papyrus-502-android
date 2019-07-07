@@ -1,5 +1,6 @@
 package com.android.papyrus502.papyrus;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -41,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
         newWordButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
+                Intent wordIntent = new Intent( MainActivity.this, WordActivity.class );
+                startActivity(wordIntent);
             }
         });
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
