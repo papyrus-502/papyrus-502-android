@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
                 Intent wordIntent = new Intent( MainActivity.this, WordActivity.class );
                 startActivity(wordIntent);
+                // todo: get value from activity
+
             }
         });
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
