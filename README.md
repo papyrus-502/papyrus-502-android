@@ -2,7 +2,7 @@
 An App for save and learn words.
 
 Plan:
- - [ ] button to add words to list
+ - [x] button to add words to list
  - [ ] save words on local storage
  - [ ] add notifications, cycle
  - [ ] implement read/learn rules*
